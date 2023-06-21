@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url(Images/background2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.logo {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+span {
+  color: gold;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+nav ul li a:hover {
+  color: gold;
+  transition: 0.4s;
+}
+.btn {
+  background-color: gold;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform 0.4s;
+}
+.btn:hover {
+  transform: scale(1.2);
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+h1 {
+  color: white;
+  margin: 20px 0px 20px;
+  font-size: 75px;
+}
+h3 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+h4 {
+  color: gold;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.newslatter form {
+  width: 380px;
+  width: 100%;
+  position: relative;
+}
+.newslatter form input:first-child {
+  display: inline-block;
+  font-size: 20px;
+  width: 100%;
+  padding: 14px 130px 15px;
+  border: 2px solid gold;
+  outline: none;
+  border-radius: 30px;
+}
+.newslatter form input:last-child {
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background: gold;
+  color: white;
+  box-shadow: 0px 0px 0px #000, 0px 0px 15px #858585;
+  top: 10px;
+  right: 6px;
+}
+
+.servicess {
+  background: #413543;
+  width: 100%;
+  padding: 100px 0px;
+}
+.title h2 {
+  color: white;
+  font-size: 50px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.card {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #f0eb8d;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card i {
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: black;
+}
+
+h5 {
+  color: #8f43ee;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.pra p {
+  color: black;
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+.card .botton {
+  background: #8f43ee;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
