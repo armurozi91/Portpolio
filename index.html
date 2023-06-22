@@ -3,83 +3,130 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portofolio</title>
+
     <link rel="stylesheet" href="style.css" />
+    <!-- box icon css -->
     <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
+    <title>Portfolio</title>
   </head>
   <body>
-    <!-- Hero Section -->
-    <div class="hero">
-      <!-- <nav>
-        <h2 class="logo">Portfo<span>lio</span></h2>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Servicess</a></li>
-          <li><a href="#">Portfolio</a></li>
-        </ul>
-        <a href="#" class="btn">Contact Us</a>
-      </nav> -->
-      <div class="content">
-        <h4>Hallo, my name is</h4>
-        <h1>Armurozi <span>Syafrizal</span></h1>
-        <h3>I'm a Web Developer</h3>
-        <div class="newslatter">
-          <form>
-            <input
-              type="email"
-              name="email"
-              id="mail"
-              placeholder="Enter Your Email"
-            />
-            <input type="submit" name="submit" value="Lets Start" />
-          </form>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">Port<span>folio.</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#servicess">Servicess</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <!-- End Header Design -->
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Armurozi Syafrizal</h1>
+        <h3>I'm a <span>Frontend Developer</span></h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+          voluptatem, exercitationem, dolores perspiciatis laboriosam impedit
+          tenetur quos facere nesciunt harum iusto quia rem veniam doloremque
+          nemo quam.
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-tiktok"></i></a>
         </div>
+        <a href="#" class="btn">Download CV</a>
       </div>
-    </div>
-    <!-- End Section Hero -->
-    <!-- Servicess Section Here -->
-    <div class="servicess">
-      <div class="title">
-        <h2>Our Servicess</h2>
+
+      <div class="home-img">
+        <img src="Images/profile.png.png" alt="gambar_profile" />
       </div>
-      <div class="box">
-        <div class="card">
-          <i class="fa fa-file-text-o"></i>
-          <h5>Web Development</h5>
-          <div class="pra">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A similique facere, repellendus totam dolore atque voluptate expedita quo voluptatum numquam ex aspernatur? Illum, cum explicabo rem error incidunt doloremque animi?</p>
-            <p style="text-align: center;">
-              <a class="botton" href="#"> Read More</a>
-            </p>
-          </div>
+    </section>
+    <!-- End of Home Section -->
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="Images/profile.png.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Exercitationem illo libero veritatis eos quibusdam odit ipsum ipsam
+          velit corrupti quidem saepe quas, eaque, omnis alias sed illum veniam
+          accusantium est nesciunt, fugit iusto fuga non voluptatibus. Repellat
+          modi soluta cupiditate? Eligendi cumque consequatur eaque laborum
+          sequi dolores.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+    <!-- End Of About Section -->
+
+    <!-- Sevices Content -->
+    <section class="servicess" id="servicess">
+      <div class="servicess-container">
+        <div class="servicess-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
+            tempora, reprehenderit enim eum quo porro illum obcaecati vitae
+            deserunt, aspernatur hic earum in tempore libero iste. Itaque nisi
+            perspiciatis voluptatibus. Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Maiores tempora, reprehenderit enim eum quo porro
+            illum obcaecati vitae deserunt, aspernatur hic earum in tempore
+            libero iste. Itaque nisi perspiciatis voluptatibus.
+          </p>
+          <a href="#" class="btn">Read more</a>
         </div>
 
-        <div class="card">
-          <i class="fa fa-plane"></i>
-          <h5>Landing Page</h5>
-          <div class="pra">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A similique facere, repellendus totam dolore atque voluptate expedita quo voluptatum numquam ex aspernatur? Illum, cum explicabo rem error incidunt doloremque animi?</p>
-            <p style="text-align: center;">
-              <a class="botton" href="#">Read More</a>
-              </p>
-          </div>
+        <div class="servicess-box">
+          <i class="bx bx-palette"></i>
+          <h3>UI/UX Designer</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
+            tempora, reprehenderit enim eum quo porro illum obcaecati vitae
+            deserunt, aspernatur hic earum in tempore libero iste. Itaque nisi
+            perspiciatis voluptatibus. Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Maiores tempora, reprehenderit enim eum quo porro
+            illum obcaecati vitae deserunt, aspernatur hic earum in tempore
+            libero iste. Itaque nisi perspiciatis voluptatibus.
+          </p>
+          <a href="#" class="btn">Read more</a>
         </div>
 
-        <div class="card">
-          <i class="fa fa-credit-card"></i>
-          <h5>Market Place Website</h5>
-          <div class="pra">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A similique facere, repellendus totam dolore atque voluptate expedita quo voluptatum numquam ex aspernatur? Illum, cum explicabo rem error incidunt doloremque animi?</p>
-            <p style="text-align: center;">
-              <a class="botton" href="#"> Read More</a>
-            </p>
-          </div>
+        <div class="servicess-box">
+          <i class="bx bx-store"></i>
+          <h3>Marketplace Website</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
+            tempora, reprehenderit enim eum quo porro illum obcaecati vitae
+            deserunt, aspernatur hic earum in tempore libero iste. Itaque nisi
+            perspiciatis voluptatibus. Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Maiores tempora, reprehenderit enim eum quo porro
+            illum obcaecati vitae deserunt, aspernatur hic earum in tempore
+            libero iste. Itaque nisi perspiciatis voluptatibus.
+          </p>
+          <a href="#" class="btn">Read more</a>
         </div>
-        
       </div>
+    </section>
+    <!-- End of Servicess Content -->
   </body>
 </html>
